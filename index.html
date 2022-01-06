@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Checkout</title>
+</head>
+<body>
+  <header>
+    <h2>Checkout</h2>
+  </header>
+
+  <main>
+    <section class="card-article">
+      <section class="article a1">
+        <img src="./photo1.png" alt="a backbag">
+        <div class="article-caracteristique">
+          <p>
+            Vintage Backbag <br>
+            <span class="promo-price">$54.99</span> <span class="normal-price"> $94.99</span>
+          </p>
+          <div class="quantity">
+            <button class="manus">-</button> 1 <button class="plus">+</button>
+          </div>
+        </div>
+        
+      </section>
+
+      <section class="article a2">
+        <img src="/photo2.png" alt="shoes">
+        <div class="article-caracteristique">
+          <p>
+            Levi Shoes <br>
+            <span class="promo-price">$74.99</span> <span class="normal-price"> $124.99</span>
+          </p>
+          <div class="quantity">
+            <button class="manus">-</button> 1 <button class="plus">+</button>
+          </div>
+        </div>
+        
+      </section>
+      <hr>
+      <p class="price">Shipping <span>$19</span></p>
+      <hr>
+      <p class="price">Total <span>$148.98</span></p>
+    </section>
+
+    <section class="checkout">
+      <h4 class="contact">Contact information</h4>
+
+      <form>
+        <label for="email">E-mail</label> <br>
+        <input type="email" id="email" name="email" placeholder="Enter your email..."><br>
+
+        <label for="phone">Phone</label><br>
+        <input type="number" id="phone" name="phone" placeholder="Enter your phone..."><br>
+      </form>
+      
+
+
+      <h4>Shipping address</h4>
+      <form>
+        <label for="name">Full name</label><br>
+        <input type="text" id="name" name="name" value="Rodney Cotton"><br>
+
+        <label for="address">Address</label><br>
+        <input type="text" id="address" name="address" placeholder=" Your address..."><br>
+
+        <label for="city">City</label><br>
+        <input type="text" id="city" name="city" placeholder=" Your city..."><br>
+
+        <div class="split">
+         <div class="country">
+          <label for="contry">Country</label><br>
+          <input type="text" id="country" name="country" placeholder=" Your country..."><br>
+         </div>
+  
+         <div class="postal">
+          <label for="code">Postal code</label><br>
+          <input type="number" id="code" name="code" placeholder=" Your postal code..."> <br>
+         </div>
+    
+        </div>
+        <input type="checkbox" id="checkbox"> <label for="checkbox"> Save this information for next time</label> <br>
+        <input class="submit" type="submit" value="Continue">
+      </form>
+
+      
+
+    </section>
+  
+
+
+  </main>
+</body>
+</html>
