@@ -92,6 +92,25 @@ label{
 
 input{
     margin-bottom: 12px;
+    padding: 10px;
+    padding-left: 40px;
+    
+}
+
+form{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form i {
+    position: absolute;
+}
+
+.icon {
+    padding: 7px 10px 10px 10px;
+    min-width: 40px;
+    color: #828282;
+    
 }
 
 #email, #phone, #name, #address, #city, #country, #code{
@@ -107,7 +126,7 @@ input{
 }
 
 #country, #code{
-    width: 80%;
+    width: 85%;
 }
 
 .submit{
@@ -121,4 +140,42 @@ input{
     padding: 10px 25px;
 }
 
+footer{
+    color: #BDBDBD;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom: -100px;
 
+}
+
+footer a{
+    text-decoration: none;
+    color: #BDBDBD;
+
+}
+
+/*Desktop dsign*/
+
+@media only screen and (min-width:1000px){
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .card-article{
+        width: 30%;
+    }
+
+    .checkout{
+         width: 40%;
+    }
+
+    .submit{
+        position: static;
+        margin-left: 75%;
+    }
+}
